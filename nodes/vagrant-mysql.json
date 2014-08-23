@@ -1,0 +1,7 @@
+{
+  "run_list": [
+    "recipe[yum-epel]",
+    "recipe[dstat]",
+    "recipe[vagrant::mysql]"
+  ]
+}
