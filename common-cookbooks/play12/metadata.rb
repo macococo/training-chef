@@ -1,11 +1,8 @@
-name             'vagrant'
+name             'play12'
 maintainer       'YOUR_COMPANY_NAME'
 maintainer_email 'YOUR_EMAIL'
 license          'All rights reserved'
-description      'Installs/Configures vagrant'
+description      'Installs/Configures play12'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 depends          'java'
-depends          'nginx'
-depends          'mysql'
-depends          'play12'

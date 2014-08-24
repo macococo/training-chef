@@ -1,0 +1,16 @@
+{
+  "java": {
+    "install_flavor": "oracle",
+    "jdk_version": "6",
+    "oracle": {
+      "accept_oracle_download_terms": true
+    }
+  },
+  "run_list": [
+    "recipe[yum-epel]",
+    "recipe[java]",
+    "recipe[nginx]",
+    "recipe[vagrant::default]",
+    "recipe[vagrant::play12]"
+  ]
+}
